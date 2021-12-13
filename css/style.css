@@ -1,0 +1,250 @@
+.navbar{
+    border-bottom:mediumturquoise 2px solid;
+}
+
+.navbar .navbar-brand{
+    color:peachpuff;
+    font-size:24px;
+}
+
+.navbar .bg-light{
+    background-color:rgba(0,0,0,.1) 
+}
+
+.nav-link{
+
+    color:lightgreen  !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+
+}
+
+.nav-link:hover{
+
+    color:paleturquoise !important;
+}
+
+
+#headerSection{
+    background: url("../images/hongkong.jpg") no-repeat center center fixed;
+    background-size:cover;
+    height:100vh;
+}
+
+#headerSection .overlay{
+    background-color: rgba(0,0,0, .7);
+}
+
+#headerSection .row{
+    height:100vh;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.post-info{
+    background: rgba(167, 54, 10, 0.377);
+    color:#fff;
+    padding:5px;
+    border:#ccc 1px solid;
+}
+
+.well{
+    background:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: dimgrey;
+    text-align: center;
+ }
+
+.login-form{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    padding:20px;
+    background:purple;
+    left:50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(+50%);
+    border-bottom: 5px solid gray;
+    border-radius: 5px;
+}
+.signup-form{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    padding:20px;
+    background:purple;
+    left:50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(+50%);
+    border-bottom: 5px solid gray;
+    border-radius: 5px;
+}
+.signup-face{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: skyblue;
+    border-radius: 100px;
+    margin:0 auto;
+    margin-top:75px;
+}
+.login-face{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: skyblue;
+    border-radius: 100px;
+    margin:0 auto;
+    margin-top:75px;
+
+    
+}
+.login-face>img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.signup-face>img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.form{
+    width:300px;
+    position: relative;
+    margin:25px auto;
+
+}
+.input{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 15px auto;
+
+}
+input[type="text"],
+input[type="password"]{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    outline:none;
+    border:2px solid #ddd;
+    border-radius: 5px;
+    font-size:16px;
+    font-family: sans-serif, Arial;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border:2px solid #0AC986;
+}
+
+input[type="submit"]{
+    width: 250px;
+    height: 50px;
+    background: #0AC986;
+    font-size:16px;
+    color:#fff;
+    outline: none;
+    border-radius: 5px;
+    border:0px;
+    cursor: pointer;
+
+}
+
+.error-msg{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    margin-top:50px;
+    display: none;
+
+}
+.error{
+    position: relative;
+    animation: shake 0.2s;
+
+}
+@keyframes shake{
+    0%, 100%{
+        left:0px;
+    }
+    20%, 80%{
+        left: -15px;
+    }
+    0%, 60%{
+        left:15px;
+    }
+}

@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+      <title>Sign Up</title>
+      <link rel="stylesheet" href="css/style.css"> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <script type="text/javascript"></script>
+  </head>
+  
+
+  <body>
+      <div class="signup-form">
+          <div class="signup-face"><img src="images/avatar.png"> </div>
+          <section class="form">
+              <form>
+              <div class="input uname">
+                  <input type="text" id="username" placeholder="Username" required/>
+                </div>
+              <div class="input pass">
+                  <input type="password" id="password" placeholder="Password" required/>
+                  
+              </div>
+              <div class="btn-group">
+                  
+                  <br>
+                  <input type="radio" name="female" value="female">Female
+                  <br>
+                  <input type="radio" name="male" value="male">Male
+                  <br>
+                  <input type="radio" name="other" value="other">Other
+
+              </div>
+              <div class="btn-group">
+                  <input type="checkbox"> I Accept Terms And Conditions
+              </div>
+              <a href="#" style="float:right; color:lightblue; font-size:14px; text-decoration:none; font-family:sans-serif,Arial; margin-bottom:10px;">Lost Your Password</a>
+              <p class="error-msg">Wrong Crendtial</p>
+              <div>
+                  <input type="submit" id="signup" value="Sign Up"   />
+              </div>
+              </form>
+          </section>
+      </div>
+      <script src="js/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+          $("#signup").click(function(){
+              if($("#username").val()==""){
+                  $(".input").addClass("error");
+                  $("username").css({"border":"2px solid red"});
+              }
+              if($("#password").val()==""){
+                  $(".input").addClass("error");
+              }
+              
+          })
+          $(".input").click(function(){
+                  $(".input").removeClass("error");
+                  $("username").css({"border":"2px solid #ddd"});
+
+              })
+      })
+      
+      </script>
+
+
+
+
+  </body>
+    
+</html>

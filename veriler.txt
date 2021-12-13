@@ -1,0 +1,6 @@
+{"records":[
+{"Konu":"Turk Kirazi Ucmaya Hazirlaniyor","Icerik":"Kiraz uretiminde dunya lideri, ihracatinda ise ucuncu olan Turkiye, en buyuk tuketim pazarlarindan Cin'de de pay sahibi olmak istiyor."},
+{"Konu":"Xiaomi Dev Halka Arz Icin Basvuru Yapti","Icerik":"Cinli akilli telefon ureticisi Xiaomi, Hong Kong borsasinda son yillarin en buyuk halka arzi icin basvuruda bulundu."},
+{"Konu":"Cin'in ilk ucak gemisi Liaoning Hong Kong'da","Icerik":"Cin'in ilk ucak gemisi Liaoning, Hong Kong'un Cin egemenligine donusunun 20. yili kutlamalari kapsaminda Hong Kong Limani'na ulasti."},
+{"Konu":"Diego Forlan Hong Kong'a transfer oldu.","Icerik":"Uruguayli futbolcu Diego Forlan, Hong Kong Premier Lig ekiplerinden Kitchee ile anlasmaya vardi."}
+]}
